@@ -16,67 +16,76 @@
           <p>With so many languages for programming these days, it can be confusing to know where to start. Every language has its own strengths and weaknesses and I can be inpossible to know which is which. Take this quiz to help find out what language is best for you.</p>
         </blockquote>
       </div>
+      <!-- Question 1 Test Form-->
+      <!-- <form class="question1" action="index.html" method="post">
+        <label for="animal-select">This is a question?</label>
+        <select class="form-control" id="q1">
+          <option value="">--Please choose an option--</option>
+          <option value="ruby">Ruby</option>
+          <option value="cSharp">C#</option>
+          <option value="java">Java</option>
+          <option value="php">PHP</option>
+        </select>
+        <input type="submit" value="Submit">
+      </form> -->
       <!-- Question 1 -->
-      <div class="radio">
-        <h3>Why do you want to learn how to code?</h3>
-        <label>
-          <input type="radio" name="q1Anwer" value="ruby" checked>
+      <form id="q1Input">
+        <div class="radio">
+          <h3>Why do you want to learn how to code?</h3>
+          <input type="radio" name="q1Answer" value="ruby">
           Join/Found A Startup
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q1Answer" value="cSharp">
-          Become A Professional Developer
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q1Answer" value="java">
-          Learn Another Skill That I Can Use For Anything
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q1Answer" value="php">
-          Make websites
-        </label>
-      </div>
+        </div>
+        <div class="radio">
+            <input type="radio" name="q1Answer" value="cSharp">
+            Become A Professional Developer
+        </div>
+        <div class="radio">
+            <input type="radio" name="q1Answer" value="java">
+            Learn Another Skill That I Can Use For Anything
+        </div>
+        <div class="radio">
+            <input type="radio" name="q1Answer" value="php">
+            Make websites
+        </div>
+      </form>
       <br>
-      <button type="button" class="btn btn-success" id="q1btn">Submit</button>
+
       <!-- Question 2 -->
-      <div class="radio">
-        <h3>What would you like your first development project to be?</h3>
-        <label>
-          <input type="radio" name="q2Answer" value="java" checked>
-          Something For Myself
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q2Answer" value="cSharp">
-          Something Big!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q2Answer" value="ruby">
-          Something Everyone Would Use
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="q2Answer" value="php">
-          Something Everyone Would Use
-        </label>
-      </div>
-      <br>
-      <button type="button" class="btn btn-success" id="q2btn">Submit</button>
+      <form>
+        <div class="radio">
+          <h3>What would you like your first development project to be?</h3>
+          <label>
+            <input type="radio" name="q2Answer" value="java">
+            Something For Myself
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="q2Answer" value="cSharp">
+            Something Big!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="q2Answer" value="ruby">
+            Something Everyone Would Use
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="q2Answer" value="php">
+            Something Everyone Would Use
+          </label>
+        </div>
+        <div>
+          <input type="submit" class="btn btn-success">
+        </div>
+      </form>
       <!-- Question 3 -->
       <div class="radio">
         <h3>What platform would you like to develop for?</h3>
         <label>
-          <input type="radio" name="q3Answer" value="java" checked>
+          <input type="radio" name="q3Answer" value="java">
           Mobile
         </label>
       </div>
@@ -104,7 +113,7 @@
       <div class="radio">
         <h3>what kind of toy would you play with?</h3>
         <label>
-          <input type="radio" name="q4Anwer" value="PHP" checked>
+          <input type="radio" name="q4Anwer" value="PHP">
           My childhood one. It may be old and ugly, but I have so many fond memories with it.
         </label>
       </div>
@@ -132,7 +141,7 @@
       <div class="radio">
         <h3>What kind of car would you drive?</h3>
         <label>
-          <input type="radio" name="q5Anwer" value="cSharp" checked>
+          <input type="radio" name="q5Anwer" value="cSharp">
           The kind middle-managers at large tech companies drive.
         </label>
       </div>
