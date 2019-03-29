@@ -1,3 +1,19 @@
-div.card {
+div#javaCard {
   display: none;
+}
+
+div#phpCard {
+  display: none;
+}
+
+div#cSharpCard {
+  display: none;
+}
+
+div#rubyCard {
+  display: none;
+}
+
+.questionField {
+  display: block;
 }
