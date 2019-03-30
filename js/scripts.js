@@ -4,7 +4,6 @@ $(document).ready(function() {
   var phpCnt = 0;
   $("form#q1Input").one("change", (function(){
     var answer1 = $("input[name='q1Answer']:checked").val();
-    console.log(answer1);
     if (answer1 === "ruby") {
       rubyCnt++;
     } else if (answer1 === "java") {
@@ -15,7 +14,6 @@ $(document).ready(function() {
   }));
   $("form#q2Input").one("change", (function(){
     var answer2 = $("input[name='q2Answer']:checked").val();
-    console.log(answer2);
     if (answer2 === "ruby") {
       rubyCnt++;
     } else if (answer2 === "java") {
@@ -26,7 +24,6 @@ $(document).ready(function() {
   }));
   $("form#q3Input").one("change", (function(){
     var answer3 = $("input[name='q3Answer']:checked").val();
-    console.log(answer3);
     if (answer3 === "ruby") {
       rubyCnt++;
     } else if (answer3 === "java") {
@@ -37,7 +34,6 @@ $(document).ready(function() {
   }));
   $("form#q4Input").one("change", (function(){
     var answer4 = $("input[name='q4Answer']:checked").val();
-    console.log(answer4);
     if (answer4 === "ruby") {
       rubyCnt++;
     } else if (answer4 === "java") {
@@ -48,7 +44,6 @@ $(document).ready(function() {
   }));
   $("form#q5Input").one("change", (function(){
     var answer5 = $("input[name='q5Answer']:checked").val();
-    console.log(answer5);
     if (answer5 === "ruby") {
       rubyCnt++;
     } else if (answer5 === "java") {
@@ -58,7 +53,6 @@ $(document).ready(function() {
     }
   }));
   $("button.btn").click(function(){
-    console.log(javaCnt, rubyCnt, phpCnt);
     function decideLanguage(javaCnt, rubyCnt, phpCnt) {
       if (javaCnt >= 3) {
         $("#javaCard").show();
