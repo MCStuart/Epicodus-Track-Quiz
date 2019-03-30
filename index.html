@@ -18,7 +18,7 @@
       </div>
 
       <!-- Question 1 -->
-      <form id="q1Input">
+      <form class="question" id="q1Input">
         <div class="radio">
           <h3>Why do you want to learn how to code?</h3>
           <input type="radio" name="q1Answer" value="ruby">
@@ -37,7 +37,7 @@
       <br>
 
       <!-- Question 2 -->
-      <form id="q2Input">
+      <form class="question" id="q2Input">
         <div class="radio">
           <h3>What would you like your first development project to be?</h3>
           <input type="radio" name="q2Answer" value="java">
@@ -56,7 +56,7 @@
       <br>
 
       <!-- Question 3 -->
-      <form id="q3Input">
+      <form class="question" id="q3Input">
         <div class="radio">
           <h3>What platform would you like to develop for?</h3>
           <input type="radio" name="q3Answer" value="java">
@@ -75,7 +75,7 @@
       <br>
 
       <!-- Question 4 -->
-      <form id="q4Input">
+      <form class="question" id="q4Input">
         <div class="radio">
           <h3>what kind of toy would you play with?</h3>
           <input type="radio" name="q4Answer" value="php">
@@ -94,7 +94,7 @@
       <br>
 
       <!-- Question 5 -->
-      <form id="q5Input">
+      <form class="question" id="q5Input">
           <h3>What kind of car would you drive?</h3>
         <div class="radio">
           <input type="radio" name="q5Answer" value="ruby">
@@ -111,10 +111,11 @@
         <br>
       </form>
       <br>
+      <div class="question">
+        <button type="button" class="btn btn-success">Click Here To Submit Your Answers</button>
+      </div>
 
-      <button type="button" class="btn btn-success">Click Here To Submit Your Answers</button>
-
-      <div class="card" style="width: 18rem;" id="javaCard">
+      <div class="card" id="javaCard">
         <img class="card-img-top" src="img/java-logo.png" alt="The Java programming language logo">
         <div class="card-body">
           <h3 class="card-title">Java</h3>
@@ -122,7 +123,7 @@
           <a href="https://go.java/index.html" class="btn btn-primary">Go Java</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;" id="phpCard">
+      <div class="card" id="phpCard">
         <img class="card-img-top" src="img/php-logo.png" alt="The PHP programming language logo">
         <div class="card-body">
           <h3 class="card-title">PHP</h3>
@@ -130,15 +131,7 @@
           <a href="https://www.php.net/" class="btn btn-primary">Learn More Here</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;" id="cSharpCard">
-        <img class="card-img-top" src="img/cSharp-logo.png" alt="The C# programming language logo">
-        <div class="card-body">
-          <h3 class="card-title">C#</h3>
-          <p class="card-text">C# is big. Used and promoted by Microsoft, C# isn't going anywhere in the future. If you want stability of a mature language, with the powerful flexibility of its numerous use cases, then this language is definitly for you. Game developers, Mobile apps, cloud-based services, and enterprise software are all using C#. Learn this one here if you want the stability of of a developed, large community of users who want flexibility without risk.</p>
-          <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/index" class="btn btn-primary">See What Microsoft Has To Say About Their Language</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;" id="rubyCard">
+      <div class="card" id="rubyCard">
         <img class="card-img-top" src="img/ruby.png" alt="The Ruby programming language logo">
         <div class="card-body">
           <h3 class="card-title">Ruby</h3>

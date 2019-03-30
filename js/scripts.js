@@ -64,43 +64,43 @@ $(document).ready(function() {
         $("#javaCard").show();
         $("#phpCard").hide();
         $("#rubyCard").hide();
-        $(".questionField").hide();
+        $(".question").hide();
       }
       if (phpCnt >= 3) {
         $("#javaCard").hide();
         $("#phpCard").show();
         $("#rubyCard").hide();
-        $(".questionField").hide();
+        $(".question").hide();
       }
       if (rubyCnt >= 3) {
         $("#javaCard").hide();
         $("#phpCard").hide();
         $("#rubyCard").show();
-        $(".questionField").hide();
+        $(".question").hide();
       }
       else if (javaCnt === 2 && phpCnt == 2) {
         $("#javaCard").show();
         $("#phpCard").show();
         $("#rubyCard").hide();
-        $(".questionField").hide();
+        $(".question").hide();
       }
-      else if (javaCnt === 2 && ruby == 2) {
+      else if (javaCnt === 2 && rubyCnt == 2) {
         $("#javaCard").show();
         $("#phpCard").hide();
         $("#rubyCard").show();
-        $(".questionField").hide();
+        $(".question").hide();
       }
       else if (rubyCnt === 2 && javaCnt == 2) {
         $("#javaCard").show();
         $("#phpCard").hide();
         $("#rubyCard").show();
-        $(".questionField").hide();
+        $(".question").hide();
       }
       else {
         // $("#javaCard").show();
-        $(".questionField").hide();
+        $(".question").hide();
       }
     };
+    decideLanguage(javaCnt, phpCnt, rubyCnt);
   });
-  decideLanguage(javaCnt, phpCnt, rubyCnt);
 });
