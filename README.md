@@ -1,5 +1,5 @@
 # Authors
-##**Stuart McKay**
+## **Stuart McKay**
 
 ### Built With
 * HTML

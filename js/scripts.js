@@ -97,7 +97,7 @@ $(document).ready(function() {
         $(".question").hide();
       }
       else {
-        // $("#javaCard").show();
+        $("#javaCard").show();
         $(".question").hide();
       }
     };
