@@ -14,6 +14,6 @@ div#rubyCard {
   display: none;
 }
 
-.questionField {
+div#radio {
   display: block;
 }
